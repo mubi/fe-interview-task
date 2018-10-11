@@ -9,10 +9,10 @@ Using React, Redux and supporting libraries of your choice, build a simple web a
 * Each review should have its own canonical url.
 * Films are searchable by the title field.
 * All reviews are navigable from a single index view.
-* The reviews in the index view are filterable by film genre.
 
 ### Optional bonus features
 
+* The reviews in the index view are filterable by film genre.
 * Reviews are persisted locally and reconstituted when the application is reopened.
 * Apply responsive CSS to optimize the layout for the available screen size.
 
