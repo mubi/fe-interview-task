@@ -1,6 +1,6 @@
 # _"As a user, I want to keep a log of my film reviews."_
 
-Using React, Redux and supporting libraries of your choice, build a simple web application to fulfill this user story. It doesn't need to be polished aesthetically, but it should meet the basic requirements in a robust manner.
+Using React and supporting libraries of your choice, build a simple web application to fulfill this user story. It doesn't need to be polished aesthetically, but it should meet the basic requirements in a robust manner.
 
 ### Basic requirements
 
@@ -29,15 +29,22 @@ Form view
 
 ### Development process
 
-The project is already initialized with a git repository. This is an opportunity to demonstrate your approach to problem solving, both in terms of the final code and the commits along the way. When you are ready to share the project please push your own branch back up to the remote github repository.
+This is an opportunity to demonstrate your approach to problem solving, both in terms of the final code and the commits along the way. This part is important, please demonstrate how you approach the task by expressing yourself in a series of incremental commits. You are of course welcome to edit your commit history before sharing your solution.
+
+You may wish to fork this repository into your local github account, or you may wish to simply clone it in to a private repository you control. As long as we can see your work, whatever you prefer is fine. When you are ready to share your work please push your work back to your repository, and share the link.
+
+### Up and running
+
+* Once you have the code checked out locally, first run `npm install`
+* Run `npm run dev` for dev server at http://localhost:5173
+* You can also run `npm run build` to build the app bundle into dist, and then to preview the built app, run `npm run preview`
 
 ### Notes
 
-* Webpack boilerplate already included
+* Vite boilerplate already included
 * Using icons as in the wireframe is not mandatory
-* The JSON API url (declared in `app/constants.js`) is a static JSON file containing a limited snapshot of films.
+* The JSON API url (declared in `app/constants.ts`) is a static JSON file containing a limited snapshot of films.
 * For the purpose of this exercise, no state needs to be persisted back to a backend server. It is a 'local' app.
-* `npx webpack` to build the app bundle into dist/
-* `npx webpack-dev-server` for dev server at http://localhost:8080
+
 
 Reach out over email if you have any questions!
